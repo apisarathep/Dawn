@@ -1,6 +1,6 @@
-<mxfile host="app.diagrams.net" modified="2023-10-30T05:59:15.128Z" agent="Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/118.0.0.0 Safari/537.36" etag="lE0vdgVpnkh1OpD1FEVG" version="22.0.8" type="github">
+<mxfile host="app.diagrams.net" modified="2023-10-30T06:32:29.896Z" agent="Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/118.0.0.0 Safari/537.36" etag="gLwTtWZ8Ods8dXZjonqG" version="22.0.8" type="github">
   <diagram name="Page-1" id="e7e014a7-5840-1c2e-5031-d8a46d1fe8dd">
-    <mxGraphModel dx="1764" dy="1018" grid="0" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" background="none" math="0" shadow="0">
+    <mxGraphModel dx="1985" dy="1145" grid="0" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" background="none" math="0" shadow="0">
       <root>
         <mxCell id="0" />
         <mxCell id="1" parent="0" />
@@ -42,6 +42,9 @@
         <mxCell id="OnfexrxYDZT6BZnMwB1S-51" value="กรอก email&#xa;และ password" style="" vertex="1" parent="2">
           <mxGeometry x="96.5" y="336" width="110" height="50" as="geometry" />
         </mxCell>
+        <mxCell id="OnfexrxYDZT6BZnMwB1S-127" value="ไม่ถูกต้อง" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" vertex="1" parent="2">
+          <mxGeometry x="291.5" y="557" width="60" height="30" as="geometry" />
+        </mxCell>
         <mxCell id="3" value="System" style="swimlane;whiteSpace=wrap;startSize=30;" parent="1" vertex="1">
           <mxGeometry x="306.5" y="80" width="244.5" height="1040" as="geometry" />
         </mxCell>
@@ -54,14 +57,17 @@
         <mxCell id="OnfexrxYDZT6BZnMwB1S-53" value="ตรวจสอบ&#xa;ความถูกต้อง" style="" vertex="1" parent="3">
           <mxGeometry x="60" y="436" width="110" height="50" as="geometry" />
         </mxCell>
-        <mxCell id="OnfexrxYDZT6BZnMwB1S-56" value="&lt;font style=&quot;font-size: 11px;&quot;&gt;ถูกต้อง&lt;br&gt;ตามเงื่อนไข&lt;/font&gt;" style="rhombus;whiteSpace=wrap;html=1;fillColor=#ffff88;strokeColor=#FF3333;" vertex="1" parent="3">
-          <mxGeometry x="55.5" y="556" width="120" height="54" as="geometry" />
+        <mxCell id="OnfexrxYDZT6BZnMwB1S-56" value="" style="rhombus;whiteSpace=wrap;html=1;fillColor=#ffff88;strokeColor=#FF3333;" vertex="1" parent="3">
+          <mxGeometry x="72" y="556" width="87" height="54" as="geometry" />
         </mxCell>
         <mxCell id="OnfexrxYDZT6BZnMwB1S-57" value="" style="edgeStyle=none;strokeColor=#FF0000;endArrow=classic;endFill=1;rounded=0;exitX=0.5;exitY=1;exitDx=0;exitDy=0;entryX=0.5;entryY=0;entryDx=0;entryDy=0;" edge="1" parent="3" source="OnfexrxYDZT6BZnMwB1S-53" target="OnfexrxYDZT6BZnMwB1S-56">
           <mxGeometry width="100" height="100" relative="1" as="geometry">
             <mxPoint x="83.5" y="517.37" as="sourcePoint" />
             <mxPoint x="203.5" y="517.87" as="targetPoint" />
           </mxGeometry>
+        </mxCell>
+        <mxCell id="OnfexrxYDZT6BZnMwB1S-126" value="ถูกต้อง" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" vertex="1" parent="3">
+          <mxGeometry x="166.5" y="556" width="60" height="30" as="geometry" />
         </mxCell>
         <mxCell id="4" value="Database" style="swimlane;whiteSpace=wrap;startSize=30;" parent="1" vertex="1">
           <mxGeometry x="551" y="80" width="250" height="1040" as="geometry" />
@@ -113,6 +119,146 @@
           <mxGeometry width="50" height="50" relative="1" as="geometry">
             <mxPoint x="440" y="610" as="sourcePoint" />
             <mxPoint x="490" y="560" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="OnfexrxYDZT6BZnMwB1S-89" value="User" style="swimlane;whiteSpace=wrap;startSize=30;" vertex="1" parent="1">
+          <mxGeometry x="33" y="1218" width="280" height="1040" as="geometry" />
+        </mxCell>
+        <mxCell id="OnfexrxYDZT6BZnMwB1S-90" value="" style="ellipse;shape=startState;fillColor=#000000;strokeColor=#ff0000;" vertex="1" parent="OnfexrxYDZT6BZnMwB1S-89">
+          <mxGeometry x="43.5" y="39" width="30" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="OnfexrxYDZT6BZnMwB1S-91" value="" style="edgeStyle=elbowEdgeStyle;elbow=horizontal;verticalAlign=bottom;endArrow=classic;endSize=8;strokeColor=#FF0000;endFill=1;rounded=0;exitX=0.504;exitY=0.81;exitDx=0;exitDy=0;exitPerimeter=0;" edge="1" parent="OnfexrxYDZT6BZnMwB1S-89" source="OnfexrxYDZT6BZnMwB1S-90" target="OnfexrxYDZT6BZnMwB1S-92">
+          <mxGeometry x="100" y="40" as="geometry">
+            <mxPoint x="115" y="110" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="OnfexrxYDZT6BZnMwB1S-92" value="เข้าสู่หน้า Log in" style="" vertex="1" parent="OnfexrxYDZT6BZnMwB1S-89">
+          <mxGeometry x="15.5" y="110" width="110" height="50" as="geometry" />
+        </mxCell>
+        <mxCell id="OnfexrxYDZT6BZnMwB1S-98" value="กรอก email&#xa;และ password" style="" vertex="1" parent="OnfexrxYDZT6BZnMwB1S-89">
+          <mxGeometry x="96.5" y="246" width="110" height="50" as="geometry" />
+        </mxCell>
+        <mxCell id="OnfexrxYDZT6BZnMwB1S-131" value="แจ้งเตือน&#xa;ข้อผิดพลาด" style="" vertex="1" parent="OnfexrxYDZT6BZnMwB1S-89">
+          <mxGeometry x="101" y="557" width="110" height="50" as="geometry" />
+        </mxCell>
+        <mxCell id="OnfexrxYDZT6BZnMwB1S-139" value="Log in&#xa; สำเร็จ" style="" vertex="1" parent="OnfexrxYDZT6BZnMwB1S-89">
+          <mxGeometry x="88" y="797" width="110" height="50" as="geometry" />
+        </mxCell>
+        <mxCell id="OnfexrxYDZT6BZnMwB1S-99" value="System" style="swimlane;whiteSpace=wrap;startSize=30;strokeColor=#FF3333;" vertex="1" parent="1">
+          <mxGeometry x="313" y="1219" width="244.5" height="1040" as="geometry" />
+        </mxCell>
+        <mxCell id="OnfexrxYDZT6BZnMwB1S-100" value="แสดงหน้า&#xa;log in" style="" vertex="1" parent="OnfexrxYDZT6BZnMwB1S-99">
+          <mxGeometry x="77.5" y="110" width="110" height="50" as="geometry" />
+        </mxCell>
+        <mxCell id="OnfexrxYDZT6BZnMwB1S-103" value="" style="rhombus;whiteSpace=wrap;html=1;fillColor=#ffff88;strokeColor=#FF3333;" vertex="1" parent="OnfexrxYDZT6BZnMwB1S-99">
+          <mxGeometry x="67" y="554" width="98" height="54" as="geometry" />
+        </mxCell>
+        <mxCell id="OnfexrxYDZT6BZnMwB1S-117" value="ถูกต้อง" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" vertex="1" parent="OnfexrxYDZT6BZnMwB1S-99">
+          <mxGeometry x="173" y="553" width="60" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="OnfexrxYDZT6BZnMwB1S-118" value="ไม่ถูกต้อง" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" vertex="1" parent="OnfexrxYDZT6BZnMwB1S-99">
+          <mxGeometry x="2" y="553" width="60" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="OnfexrxYDZT6BZnMwB1S-122" value="ตรวจสอบ email&#xa;และ password" style="" vertex="1" parent="OnfexrxYDZT6BZnMwB1S-99">
+          <mxGeometry x="60" y="389" width="110" height="50" as="geometry" />
+        </mxCell>
+        <mxCell id="OnfexrxYDZT6BZnMwB1S-124" value="" style="endArrow=classic;html=1;rounded=0;exitX=0.5;exitY=1;exitDx=0;exitDy=0;entryX=0.5;entryY=0;entryDx=0;entryDy=0;strokeColor=#FF3333;" edge="1" parent="OnfexrxYDZT6BZnMwB1S-99" source="OnfexrxYDZT6BZnMwB1S-122" target="OnfexrxYDZT6BZnMwB1S-103">
+          <mxGeometry width="50" height="50" relative="1" as="geometry">
+            <mxPoint x="101" y="497" as="sourcePoint" />
+            <mxPoint x="151" y="447" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="OnfexrxYDZT6BZnMwB1S-133" value="ตรวจสอบข้อมูลผู้ใช้" style="" vertex="1" parent="OnfexrxYDZT6BZnMwB1S-99">
+          <mxGeometry x="67.25" y="699" width="110" height="50" as="geometry" />
+        </mxCell>
+        <mxCell id="OnfexrxYDZT6BZnMwB1S-134" value="" style="rhombus;whiteSpace=wrap;html=1;fillColor=#ffff88;strokeColor=#FF3333;" vertex="1" parent="OnfexrxYDZT6BZnMwB1S-99">
+          <mxGeometry x="95" y="790" width="65" height="55" as="geometry" />
+        </mxCell>
+        <mxCell id="OnfexrxYDZT6BZnMwB1S-136" value="" style="endArrow=classic;html=1;rounded=0;exitX=0.5;exitY=1;exitDx=0;exitDy=0;entryX=0.5;entryY=0;entryDx=0;entryDy=0;strokeColor=#FF3333;" edge="1" parent="OnfexrxYDZT6BZnMwB1S-99" target="OnfexrxYDZT6BZnMwB1S-134">
+          <mxGeometry width="50" height="50" relative="1" as="geometry">
+            <mxPoint x="127" y="749" as="sourcePoint" />
+            <mxPoint x="128" y="864" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="OnfexrxYDZT6BZnMwB1S-137" value="พบข้อมูล" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" vertex="1" parent="OnfexrxYDZT6BZnMwB1S-99">
+          <mxGeometry x="131" y="853" width="52" height="26" as="geometry" />
+        </mxCell>
+        <mxCell id="OnfexrxYDZT6BZnMwB1S-138" value="" style="endArrow=classic;html=1;rounded=0;exitX=0.5;exitY=1;exitDx=0;exitDy=0;strokeColor=#FF3333;" edge="1" parent="OnfexrxYDZT6BZnMwB1S-99">
+          <mxGeometry width="50" height="50" relative="1" as="geometry">
+            <mxPoint x="127" y="845" as="sourcePoint" />
+            <mxPoint x="127" y="893" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="OnfexrxYDZT6BZnMwB1S-106" value="Log in&#xa; สำเร็จ" style="" vertex="1" parent="OnfexrxYDZT6BZnMwB1S-99">
+          <mxGeometry x="72.5" y="891" width="110" height="50" as="geometry" />
+        </mxCell>
+        <mxCell id="OnfexrxYDZT6BZnMwB1S-107" value="" style="ellipse;shape=endState;fillColor=#000000;strokeColor=#ff0000" vertex="1" parent="OnfexrxYDZT6BZnMwB1S-99">
+          <mxGeometry x="112.5" y="981" width="30" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="OnfexrxYDZT6BZnMwB1S-121" value="" style="endArrow=classic;html=1;rounded=0;exitX=0.5;exitY=1;exitDx=0;exitDy=0;entryX=0.5;entryY=0;entryDx=0;entryDy=0;strokeColor=#FF3333;" edge="1" parent="OnfexrxYDZT6BZnMwB1S-99" source="OnfexrxYDZT6BZnMwB1S-106" target="OnfexrxYDZT6BZnMwB1S-107">
+          <mxGeometry width="50" height="50" relative="1" as="geometry">
+            <mxPoint x="124.5" y="934" as="sourcePoint" />
+            <mxPoint x="174.5" y="884" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="OnfexrxYDZT6BZnMwB1S-157" value="ไม่พบข้อมูล" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" vertex="1" parent="OnfexrxYDZT6BZnMwB1S-99">
+          <mxGeometry x="7.25" y="790" width="93.75" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="OnfexrxYDZT6BZnMwB1S-105" value="Database" style="swimlane;whiteSpace=wrap;startSize=30;" vertex="1" parent="1">
+          <mxGeometry x="557.5" y="1218" width="250" height="1047" as="geometry" />
+        </mxCell>
+        <mxCell id="OnfexrxYDZT6BZnMwB1S-114" value="ดึงข้อมูลผู้ใช้" style="" vertex="1" parent="OnfexrxYDZT6BZnMwB1S-105">
+          <mxGeometry x="68" y="559" width="109.5" height="50" as="geometry" />
+        </mxCell>
+        <mxCell id="OnfexrxYDZT6BZnMwB1S-109" value="" style="endArrow=classic;strokeColor=#FF0000;endFill=1;rounded=0;exitX=1;exitY=0.5;exitDx=0;exitDy=0;entryX=-0.003;entryY=0.476;entryDx=0;entryDy=0;entryPerimeter=0;" edge="1" parent="1" source="OnfexrxYDZT6BZnMwB1S-92" target="OnfexrxYDZT6BZnMwB1S-100">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="259.5" y="1353" as="sourcePoint" />
+            <mxPoint x="339" y="1356.79" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="OnfexrxYDZT6BZnMwB1S-110" value="" style="endArrow=classic;strokeColor=#FF0000;endFill=1;entryX=1.008;entryY=0.48;entryDx=0;entryDy=0;rounded=1;exitX=0.478;exitY=0.977;exitDx=0;exitDy=0;exitPerimeter=0;entryPerimeter=0;" edge="1" parent="1" source="OnfexrxYDZT6BZnMwB1S-100" target="OnfexrxYDZT6BZnMwB1S-98">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="449.48648648648646" y="1382" as="sourcePoint" />
+            <mxPoint x="244.5" y="1579" as="targetPoint" />
+            <Array as="points">
+              <mxPoint x="444" y="1491" />
+            </Array>
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="OnfexrxYDZT6BZnMwB1S-128" value="" style="endArrow=classic;html=1;rounded=1;exitX=0.5;exitY=1;exitDx=0;exitDy=0;entryX=0;entryY=0.5;entryDx=0;entryDy=0;strokeColor=#FF3333;" edge="1" parent="1" source="OnfexrxYDZT6BZnMwB1S-98" target="OnfexrxYDZT6BZnMwB1S-122">
+          <mxGeometry width="50" height="50" relative="1" as="geometry">
+            <mxPoint x="249" y="1659" as="sourcePoint" />
+            <mxPoint x="299" y="1609" as="targetPoint" />
+            <Array as="points">
+              <mxPoint x="185" y="1629" />
+            </Array>
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="OnfexrxYDZT6BZnMwB1S-113" value="" style="endArrow=classic;html=1;rounded=0;entryX=0;entryY=0.5;entryDx=0;entryDy=0;strokeColor=#FF3333;exitX=1;exitY=0.5;exitDx=0;exitDy=0;" edge="1" parent="1" source="OnfexrxYDZT6BZnMwB1S-103" target="OnfexrxYDZT6BZnMwB1S-114">
+          <mxGeometry width="50" height="50" relative="1" as="geometry">
+            <mxPoint x="460" y="1818" as="sourcePoint" />
+            <mxPoint x="496.5" y="1491" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="OnfexrxYDZT6BZnMwB1S-132" value="" style="endArrow=classic;html=1;rounded=0;entryX=1;entryY=0.5;entryDx=0;entryDy=0;exitX=0;exitY=0.5;exitDx=0;exitDy=0;strokeColor=#FF3333;" edge="1" parent="1" source="OnfexrxYDZT6BZnMwB1S-103" target="OnfexrxYDZT6BZnMwB1S-131">
+          <mxGeometry width="50" height="50" relative="1" as="geometry">
+            <mxPoint x="344" y="1833" as="sourcePoint" />
+            <mxPoint x="394" y="1783" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="OnfexrxYDZT6BZnMwB1S-135" value="" style="endArrow=classic;html=1;rounded=1;exitX=0.5;exitY=1;exitDx=0;exitDy=0;strokeColor=#FF3333;entryX=1;entryY=0.5;entryDx=0;entryDy=0;" edge="1" parent="1" source="OnfexrxYDZT6BZnMwB1S-114" target="OnfexrxYDZT6BZnMwB1S-133">
+          <mxGeometry width="50" height="50" relative="1" as="geometry">
+            <mxPoint x="504" y="1843" as="sourcePoint" />
+            <mxPoint x="505" y="1958" as="targetPoint" />
+            <Array as="points">
+              <mxPoint x="680" y="1941" />
+            </Array>
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="OnfexrxYDZT6BZnMwB1S-140" value="" style="endArrow=classic;html=1;rounded=0;exitX=0;exitY=0.5;exitDx=0;exitDy=0;entryX=1.006;entryY=0.471;entryDx=0;entryDy=0;strokeColor=#FF3333;entryPerimeter=0;" edge="1" parent="1" source="OnfexrxYDZT6BZnMwB1S-134" target="OnfexrxYDZT6BZnMwB1S-139">
+          <mxGeometry width="50" height="50" relative="1" as="geometry">
+            <mxPoint x="386" y="1978" as="sourcePoint" />
+            <mxPoint x="387" y="2019" as="targetPoint" />
           </mxGeometry>
         </mxCell>
       </root>
